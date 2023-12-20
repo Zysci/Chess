@@ -21,6 +21,7 @@ public class ChessGame {
       System.out.println(Produkt);
       y.setName(x);
       System.out.println("lmao xd");
+      System.out.println("eksde eksde");
 
 
 
