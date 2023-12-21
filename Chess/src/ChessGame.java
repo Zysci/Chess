@@ -4,10 +4,9 @@ public class ChessGame {
       Scanner input = new Scanner(System.in);
       Scanner tal = new Scanner(System.in);
       Pieces y = new Pieces();
+      Pieces a = new Pieces();
 
-      int Produkt;
       String x;
-      Produkt = Pieces.piece(2,3);
 
       System.out.println("Welcome To ProtoChess, choose your piece");
          x = input.nextLine();
@@ -16,15 +15,11 @@ public class ChessGame {
          } else {
             System.out.println("Ayy lmao");
          }
-         
-      System.out.println("Mata in två tal");
-      System.out.println(Produkt);
+
       y.setName(x);
-      System.out.println("lmao xd");
-      System.out.println("eksde eksde");
-      System.out.println("Lmao");
-
-
+      System.out.println(a.Distance(5, 1));
+      a.Move(2,2);
+     System.out.println("X-coordinate: "+ a.getNewX() + " Y-coordinate: " + a.getNewY());
 
    }
 
