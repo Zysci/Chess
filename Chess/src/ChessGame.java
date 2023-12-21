@@ -22,6 +22,7 @@ public class ChessGame {
       y.setName(x);
       System.out.println("lmao xd");
       System.out.println("eksde eksde");
+      System.out.println("Lmao");
 
 
 
