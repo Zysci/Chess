@@ -25,16 +25,14 @@ public class Pieces  {
     public void Move(int X,int Y){
         this.X = X;
         this.Y = Y;
-        X2 = X;
-        Y2 = Y;
     }
 
-    public double getNewX(){
-        return X2;
+    public double getX(){
+        return X;
     }
 
-    public double getNewY(){
-        return Y2;
+    public double getY(){
+        return Y;
     }
     public void setName(String name){
         System.out.println(name);

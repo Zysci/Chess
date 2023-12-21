@@ -19,7 +19,7 @@ public class ChessGame {
       y.setName(x);
       System.out.println(a.Distance(5, 1));
       a.Move(2,2);
-     System.out.println("X-coordinate: "+ a.getNewX() + " Y-coordinate: " + a.getNewY());
+      System.out.println("X-coordinate: "+ a.getX() + " Y-coordinate: " + a.getY());
 
    }
 
