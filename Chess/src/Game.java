@@ -1,4 +1,4 @@
-public class Pieces  {
+public class Game  {
     private int[][]Board;
     private int X = 5;
     private int Y = 2;
@@ -34,9 +34,5 @@ public class Pieces  {
     public double getY(){
         return Y;
     }
-    public void setName(String name){
-        System.out.println(name);
-    } 
-
 
 }
